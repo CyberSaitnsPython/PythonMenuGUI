@@ -6,6 +6,7 @@ from PIL import ImageTk, Image
 class DrGui:
 
     def __init__(self):
+        # Change background to something not plain?
         main = Tk()
         m = main.maxsize()
         main.geometry('{}x{}+0+0'.format(*m))
